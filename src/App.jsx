@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <p>App</p>
+      <p>Working on Hero section</p>
     </div>
   );
 }
