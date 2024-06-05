@@ -1,7 +1,9 @@
+import HeroSection from "./Components/HeroSection";
+
 function App() {
   return (
     <div>
-      <p>Working on Hero section!!!!</p>
+      <HeroSection />
     </div>
   );
 }
