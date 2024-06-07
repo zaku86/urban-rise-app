@@ -40,12 +40,79 @@ body {
   font-size: 16px;
   font-weight: bold;
 }
+.transparent-btn {
+  background: transparent;
+  border: 2px solid #f0a500;
+  color: white;
+}
+.large-btn {
+  min-width: 186px;
+}
+.hero-content-container {
+  display: flex;
+  gap: 21px;
+  padding: 72px 0px 128px;
+}
+.left-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 50%;
+}
+.right-hero {
+  width: 50%;
+}
+.right-hero > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 72px;
+}
+.body-text {
+  color: #b5b5b5;
+  font-weight: bold;
+  font-size: 16px;
+}
+.button-container {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.body-text > span {
+  color: #e45826;
+  font-size: 16px;
+}
 
 @media screen and (max-width: 900px) {
   .hero-section {
-    padding: 40px;
+    padding: 20px;
   }
   .link-item {
     display: none;
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1230px) {
+  .hero-content-container {
+    flex-direction: column;
+  }
+
+  .left-hero {
+    width: 100%;
+  }
+  .right-hero {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 40px;
   }
 }
