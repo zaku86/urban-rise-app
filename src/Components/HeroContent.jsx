@@ -7,7 +7,7 @@ function HeroContent() {
     <Container>
       <div className="hero-content-container">
         <div className="left-hero">
-          <h1>Crafting Archittectural Wonders</h1>
+          <h1 className="hero-title">Crafting Archittectural Wonders</h1>
           <p className="body-text">
             Your Ideas & Dreams Are Transformed By Us Into Long-Lasting,
             Engineered Buildings.
