@@ -1,9 +1,10 @@
 import aboutImg from "../assets/aboutImg.png";
 import Container from "./Container";
+import Line from "./Line";
 
 function AboutSection() {
   return (
-    <div className="about-bg">
+    <div className="padding-class about-bg">
       <Container>
         <div className="about-section-container">
           <div className="img-container">
@@ -11,7 +12,7 @@ function AboutSection() {
           </div>
           <div className="about-right-div">
             {/* line */}
-            <div className="line"></div>
+            <Line isDark />
             <h1 className="section-title">
               Take A Glimpse Into Our Construction Voyage
             </h1>
