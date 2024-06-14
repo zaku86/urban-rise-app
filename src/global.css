@@ -192,6 +192,68 @@ body {
   color: #f0a500;
   line-height: 160%;
 }
+.interior-container {
+  padding: 108px 0px 144px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.interior-text-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+}
+.interior-text-div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.interior-text-div > div > .section-title {
+  color: white;
+  margin-top: 32px;
+}
+.interior-text-div > div > .btn-text-color {
+  color: #b5b5b5;
+  border: 2px solid #b5b5b5;
+}
+.projects-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 33px;
+}
+.card {
+  background-color: #fffcf5;
+  display: flex;
+  padding: 32px;
+  gap: 32px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+
+.card-text-div > h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 160%;
+}
+.card-paragraph {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 160%;
+  color: #6d6d6d;
+  max-width: 300px;
+}
+.div-with-dot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow {
+  color: #f0a500;
+}
 
 @media screen and (max-width: 1230px) {
   .hero-content-container {
@@ -227,13 +289,29 @@ body {
   .section-title {
     font-size: 30px;
   }
-  .title-div {
+  .title-div,
+  .interior-text-div {
     flex-direction: column;
+  }
+  .interior-container {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    flex-direction: column;
+  }
+  .interior-container {
+    padding: 0px;
   }
 }
 
 @media screen and (max-width: 380px) {
   .hero-title {
     font-size: 40px;
+  }
+  .interior-container {
+    padding: 0px;
   }
 }
