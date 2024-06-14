@@ -234,7 +234,7 @@ body {
   gap: 37px;
 }
 
-*/ .card-text-div > h3 {
+.card-text-div > h3 {
   font-size: 24px;
   font-weight: bold;
   line-height: 160%;
