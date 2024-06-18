@@ -1,4 +1,11 @@
-function Button({ text, isSecondary, largeBtn, textSecondary, Icon }) {
+function Button({
+  text,
+  isSecondary,
+  largeBtn,
+  textSecondary,
+  Icon,
+  whiteBorder,
+}) {
   return (
     <button
       className={`
@@ -6,6 +13,7 @@ function Button({ text, isSecondary, largeBtn, textSecondary, Icon }) {
         ${isSecondary ? "transparent-btn" : ""} 
         ${largeBtn ? "large-btn" : ""}
         ${textSecondary ? "btn-text-color" : ""}
+        ${whiteBorder ? "white-border" : ""}
       `}
     >
       {text}

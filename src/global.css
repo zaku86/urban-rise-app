@@ -48,6 +48,11 @@ body {
   border: 2px solid #f0a500;
   color: white;
 }
+.white-border {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
 .btn-text-color {
   color: #f0a500;
 }
@@ -201,7 +206,7 @@ body {
 .interior-text-div {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   gap: 32px;
 }
 .interior-text-div > div {
@@ -211,7 +216,6 @@ body {
 }
 .interior-text-div > div > .section-title {
   color: white;
-  margin-top: 32px;
 }
 .interior-text-div > div > .btn-text-color {
   color: #b5b5b5;
@@ -255,6 +259,10 @@ body {
   color: #f0a500;
 }
 
+.dark-mode {
+  color: white;
+}
+
 @media screen and (max-width: 1230px) {
   .hero-content-container {
     flex-direction: column;
@@ -273,6 +281,9 @@ body {
   }
   .img-container {
     width: 100%;
+  }
+  .interior-text-div {
+    align-items: flex-start;
   }
 }
 @media screen and (max-width: 900px) {
