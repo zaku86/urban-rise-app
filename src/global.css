@@ -148,11 +148,13 @@ body {
 .number-text {
   font-weight: bold;
   font-size: 40px;
+  width: 167px;
 }
 .body-text2 {
   color: #b5b5b5;
   font-weight: bold;
   font-size: 14px;
+  width: 167px;
 }
 .services-bg {
   padding: 128px 120px 152px;
@@ -191,7 +193,7 @@ body {
   line-height: 160%;
   color: #211f1f;
 }
-.body-text2 {
+.body-text3 {
   font-weight: bold;
   font-size: 16px;
   color: #f0a500;

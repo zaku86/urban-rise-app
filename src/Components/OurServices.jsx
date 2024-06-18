@@ -59,7 +59,7 @@ function OurServices() {
                 <p className="body-text">{el.description}</p>
               </div>
               <div>
-                <p className="body-text2">Learn More</p>
+                <p className="body-text3">Learn More</p>
               </div>
             </div>
           ))}
