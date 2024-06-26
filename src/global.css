@@ -85,7 +85,7 @@ body {
   font-size: 72px;
 }
 .body-text {
-  color: #b5b5b5;
+  color: #6d6d6d;
   font-weight: bold;
   font-size: 16px;
 }
@@ -104,6 +104,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 131px;
+  justify-content: space-between;
 }
 .img-container {
   width: 50%;
@@ -177,6 +178,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
+  justify-content: space-between;
 }
 .service-line {
   display: flex;
@@ -227,6 +229,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 33px;
+  justify-content: space-between;
 }
 .card {
   background-color: #fffcf5;
@@ -263,6 +266,38 @@ body {
 
 .dark-mode {
   color: white;
+}
+.feedback-container {
+  display: flex;
+  margin-top: 72px;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.feedback-cart {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.feedback-text {
+  width: 384px;
+  color: #6d6d6d;
+}
+.name {
+  font-size: 16px;
+  font-weight: bold;
+}
+.name-description {
+  font-size: 14px;
+  line-height: 160%;
+  font-weight: bold;
+  color: #6d6d6d;
+  padding-left: 8px;
+}
+.homeowner {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 @media screen and (max-width: 1230px) {
