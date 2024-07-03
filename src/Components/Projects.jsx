@@ -9,10 +9,10 @@ import modern from "../assets/modern.png";
 import commercial from "../assets/commercial.png";
 import structural from "../assets/structural.png";
 import HeaderParagraph from "./HeaderParagraph";
-
+import house from "../assets/house.jpeg";
 const data = [
   {
-    img: interior,
+    img: house,
     title: "Interiors Designs",
     description:
       "Step Into A World Of Captivating Commercial Spaces Designed To Elevate Your Business.",
@@ -20,7 +20,7 @@ const data = [
     date: "Aug 2024",
   },
   {
-    img: structural,
+    img: house,
     title: "Structural Repair",
     description:
       "Step into a world of captivating commercial spaces designed to elevate your business. ",
@@ -28,7 +28,7 @@ const data = [
     date: "Aug 2024",
   },
   {
-    img: commercial,
+    img: house,
     title: "Commercial Complex",
     description:
       "Step into a world of captivating commercial spaces designed to elevate your business. ",
@@ -36,7 +36,7 @@ const data = [
     date: "Aug 2024",
   },
   {
-    img: modern,
+    img: house,
     title: "Residential Building",
     description:
       "Step into a world of captivating commercial spaces designed to elevate your business.",
@@ -62,7 +62,7 @@ function Interior() {
           <div className="projects-card">
             {data.map((el, index) => (
               <div key={index} className="card">
-                <div>
+                <div className="img-container3">
                   <img src={el.img} alt="" />
                 </div>
 
